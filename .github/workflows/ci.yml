@@ -79,7 +79,7 @@ jobs:
           tag: version-${{ env.version }}
           name: Version ${{ env.version }}
           body: |
-            ## 🚀 Changes
+            ## 🚀 Changes!
 
             ${{ github.event.head_commit.message }}
 
